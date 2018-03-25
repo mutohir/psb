@@ -1,0 +1,90 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+  }
+.navbar-default{
+  /*background: linear-gradient(-90deg, #02AAB0, #00CDAC);;*/ /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(-90deg, #02AAB0, #00CDAC); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(-90deg, #02AAB0, #00CDAC); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(-90deg, #02AAB0, #00CDAC); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(-90deg, #02AAB0, #00CDAC); /* Standard syntax */
+  /*background: linear-gradient(-90deg, #02AAB0, #00CDAC);*/
+  background-color: #7bbd5a;
+  color: #fff;
+}
+#navbar > ul > li:hover {
+  background-color: #609D41;
+}
+#navbar > ul > li > a{
+  color: #fff;
+}
+#navbar > ul > li.dropdown.open > ul {
+ background-color: #7bbd5a;
+}
+#navbar > ul > li.dropdown.open > ul > li > a{
+  color: #FFFFFF;
+}
+#navbar > ul > li.dropdown.open > ul > li a:hover{
+  background-color: #609D41;
+}
+#navbar > ul > li.dropdown.open > a{
+  background-color: #609D41;
+}
+.panel-heading{
+  background: #00CDAC;
+}
+.table, .panel{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+legend{
+  /*background: green;  For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(-90deg, #02AAB0, #00CDAC); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(-90deg, #02AAB0, #00CDAC); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(-90deg, #02AAB0, #00CDAC); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(-90deg, #02AAB0, #00CDAC); /* Standard syntax */
+  /*background: linear-gradient(-90deg, #02AAB0, #00CDAC);*/
+  /*color: #fff;*/
+  /*padding:5px;*/
+  /*text-align: center;*/
+  background-color: #7bbd5a;
+  }
+.nav > a{
+    display: none;
+  }
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   Margin bottom by footer height 
+  margin-bottom: 60px;
+}*/
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+/*
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}*/
+body > div > div.row {
+        margin-top: 5%;
+      }
+@media (max-width: 760px){
+  .navbar .navbar-header img{
+    margin-left: 20px;
+  }
+   body > div > div.row {
+        margin-top: 25%;
+      }
+/*  .navbar-nav a button{
+    display: none;
+  }*/
+/*  .nav > a{
+    display: block;
+  }*/
+}
